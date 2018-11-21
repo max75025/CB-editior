@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3246170-3bd9-46b7-b797-e24b12c92b5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cursachBodul.exe" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +19,8 @@
           <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+                <state relative-caret-position="455">
+                  <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding>
                     <element signature="e#14#167#0" expanded="true" />
                     <element signature="e#991#1066#0" expanded="false" />
@@ -379,11 +380,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test delete" />
     <MESSAGE value="test add" />
     <MESSAGE value="v 1.1" />
     <MESSAGE value="v 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.2" />
+    <MESSAGE value="v 1.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 1.2.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -753,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="455">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#14#167#0" expanded="true" />
             <element signature="e#991#1066#0" expanded="false" />
