@@ -66,7 +66,7 @@
             <td title="{{.PagePrintCount}}">{{.PagePrintCount}}</td>
             <td title="{{.DOI}}"><a href="{{.DOI}}" class="text-dark">ссылка</a></td>
             <td> {{range .Authors}}<a href="/author/{{.ID}}" class="text-dark">{{.FioRu}}</a>; {{end}}</td>
-            <td ><a href="/edition/{{.Edition.Number}}" class="text-dark">{{.Edition.Number}}</a></td>
+            <td ><a href="/edition/{{.Edition.ID}}" class="text-dark">{{.Edition.Number}}</a></td>
             <td>{{.Edition.Tom}}</td>
             <td><a href="{{.PDF}}" target="_blank" class="text-dark">файл</a></td>
 
