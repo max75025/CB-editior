@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/datatables.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/tableWithNavigation.css" type="text/css">
+    <title>статьи</title>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active ">
+                <a class="nav-link text-center" href="/publications">СТАТЬИ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="/editions">ВЫПУСКИ</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-center " href="/authors">АВТОРЫ</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-none d-sm-none d-md-block d-lg-block" action="/logout" method="GET">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">выход</button>
+        </form>
+    </div>
+</nav>
+<div class="container-fluid">
+
+    <form action="/addPublication" method="GET">
+        <button type="submit" class="btn btn-outline-success m-3">добавить статью</button>
+    </form>
+
+
+    <table data-toggle="table" class=" table table-hover  table-striped table-bordered "  style="width:100%">
+        <thead class="thead-dark">
+        <tr class="">
+            <th >название</th>
+            <th >страницы</th>
+            <th>кол. стр.</th>
+            <th  title="количество печатных страниц">кол. печ. стр.</th>
+            <th>DOI</th>
+            <th >авторы</th>
+            <th >выпуск</th>
+            <th>том</th>
+            <th>PDF</th>
+        </tr>
+        </thead>
+        <tbody class="" >
+        {{range .}}
+
+        <tr class="" >
+            <td title="{{.Name}}"><a href="/publication/{{.ID}}" class="text-dark">{{.Name}}</a></td>
+            <td title="{{.Pages}}">{{.Pages}}</td>
+            <td title="{{.PageCount}}">{{.PageCount}}</td>
+            <td title="{{.PagePrintCount}}">{{.PagePrintCount}}</td>
+            <td title="{{.DOI}}"><a href="{{.DOI}}" class="text-dark">ссылка</a></td>
+            <td> {{range .Authors}}<a href="/author/{{.ID}}" class="text-dark">{{.FioRu}}</a>; {{end}}</td>
+            <td ><a href="/edition/{{.Edition.Number}}" class="text-dark">{{.Edition.Number}}</a></td>
+            <td>{{.Edition.Tom}}</td>
+            <td><a href="{{.PDF}}" target="_blank" class="text-dark">файл</a></td>
+
+        </tr>
+        {{end}}
+        </tbody>
+    </table>
+</div>
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<script src="/static/js/datatables.min.js"></script>
+
+<script src="/static/js/datatable-settings.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+
+<div class="flexbox-wrapper">
+    <form class=" p-3 card card-block  bg-faded form-width" action="/addPublication" method="POST" enctype="multipart/form-data">
+        <legend align="center" class="m-b-1 ">добавление публикации</legend>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="name" id="name"  type="text" placeholder="название" required/>
+            <label for="name">название</label>
+        </div>
+        {{/*<div class=" form-group has-float-label ">
+            <input class="form-control" name="month" id="month"  type="text" placeholder="месяц(число)" required/>
+            <label for="month">месяц</label>
+        </div>*/}}
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="pages" id="pages"  type="text" placeholder="начало - конец" required/>
+            <label for="pages">страницы</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="doi" id="doi"  type="text" placeholder="DOI" required/>
+            <label for="doi">DOI</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="page_count" id="page_count"  type="text" placeholder="количество страниц(число)" required/>
+            <label for="page_count">количество страниц</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="page_print_count" id="page_print_count"  type="text" placeholder="количество печатных страниц(число)" required/>
+            <label for="page_print_count">количество печатных страниц</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <select class="form-control" name="authors" id="authors" multiple required size="5">
+                {{range .Authors}}
+                <option value="{{.ID}}">{{.FioRu}}</option>
+                {{end}}
+            </select>
+            <label for="authors">авторы</label>
+        </div>
+
+        <div class=" form-group has-float-label ">
+            <select class="form-control" name="edition" id="edition"  required >
+                <option value="" disabled selected>выпуск-том</option>
+                {{range .Editions}}
+                <option value="{{.ID}}">{{.Number}}-{{.Tom}}</option>
+                {{end}}
+            </select>
+            <label for="edition">выпуск</label>
+        </div>
+
+
+        <div class="form-group has-float-label">
+            <input  required type="file" name="pdf" accept="application/pdf" class="btn p-0 btn-block form-control-file" placeholder="pdf file"/>
+        </div>
+
+        <div class="text-xs-center">
+            <button class="btn btn-block btn-success" type="submit">добавить</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

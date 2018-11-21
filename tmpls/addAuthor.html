@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+
+<div class="flexbox-wrapper">
+    <form class=" p-3 card card-block  bg-faded form-width" action="/addAuthor" method="POST">
+        <legend align="center" class="m-b-1 ">добавление автора</legend>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="fio-ru" id="fio-ru"  type="text" placeholder="фио рус" required/>
+            <label for="fio-ru">фио рус</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="fio-ua" id="fio-ua"  type="text" placeholder="фио укр" required/>
+            <label for="fio-ua">фио укр</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="fio-en" id="fio-en"  type="text" placeholder="фио англ" required/>
+            <label for="fio-en">фио англ</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="email" id="email"  type="email" placeholder="email" required/>
+            <label for="email">email</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="phone" id="phone"  type="tel" placeholder="телефон" required/>
+            <label for="phone">телефон</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="orcid" id="orcid"  type="text" placeholder="ORCID" required/>
+            <label for="orcid">ORCID</label>
+        </div>
+        <div class=" form-group has-float-label ">
+            <input class="form-control" name="work" id="work"  type="text" placeholder="место работы" required/>
+            <label for="work">место работы</label>
+        </div>
+
+        <div class="text-xs-center">
+            <button class="btn btn-block btn-success" type="submit">добавить</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

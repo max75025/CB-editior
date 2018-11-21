@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<style>
+    .inline{
+        display: inline;
+
+    }
+    .wrapper-inline{
+        margin-bottom: 1rem;
+    }
+</style>
+<body>
+
+<div class="flexbox-wrapper">
+    <div class="p-3 card card-block  bg-faded form-width">
+    {{/*<h2 align="center" class="m-b-1 ">данные автора</h2>*/}}
+        <img src="/static/author_ico.png" alt="publication" class="m-auto" style="display: block">
+        <div class=" ">
+            <h5>название: </h5>
+            <p>{{.Name}}</p>
+        </div>
+        <div class="wrapper-inline ">
+            <h5 class="inline">страницы: </h5>
+            <p class="inline">{{.Pages}}</p>
+        </div>
+        <div class="wrapper-inline ">
+            <h5 class="inline">количество страниц: </h5>
+            <p class="inline">{{.PageCount}}</p>
+        </div>
+        <div class="wrapper-inline ">
+            <h5 class="inline">количество печатных страниц: </h5>
+            <p class="inline">{{.PagePrintCount}}</p>
+        </div>
+        <div class=" ">
+            <h5>DOI: </h5>
+            <p><a href="{{.DOI}}" class="text-dark">ссылка</a></p>
+        </div>
+        <div class=" ">
+            <h5>PDF: </h5>
+            <p><a href="{{.PDF}}" class="text-dark">файл</a></p>
+        </div>
+        <div class=" ">
+            <h5>авторы: </h5>
+        <p>{{range .Authors}} <a href="/author/{{.ID}}" class="text-dark">{{.FioRu}}; </a>{{end}}</p>
+        </div>
+        <div class=" ">
+            <h5>выпуск: </h5>
+            <p><a href="/edition/{{.Edition.ID}}" class="text-dark">{{.Edition.Number}}({{.Edition.Tom}})</a></p>
+        </div>
+
+
+        <div class="row justify-content-between pl-3 pr-3">
+            <form action="/editPublication/{{.ID}}" method="GET"><button type="submit" class="btn btn-success " >изменить</button></form>
+            <form class="" action="/deletePublication/{{.ID}}" method="POST"><button type="submit" class="btn btn-danger" onclick="return confirm('вы уверены что хотите удалить?') ? true : false;">удалить</button></form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

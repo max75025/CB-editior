@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+
+<div class="flexbox-wrapper">
+    <div class="p-3 card card-block  bg-faded form-width">
+        {{/*<h2 align="center" class="m-b-1 ">данные автора</h2>*/}}
+            <img src="/static/author_ico.png" alt="author" class="m-auto" style="display: block">
+        <div class=" ">
+            <h5>рус: </h5>
+            <p>{{.FioRu}}</p>
+        </div>
+        <div class=" ">
+            <h5>укр: </h5>
+            <p>{{.FioUa}}</p>
+        </div>
+        <div class=" ">
+            <h5>англ: </h5>
+            <p>{{.FioEn}}</p>
+        </div>
+        <div class=" ">
+            <h5>email: </h5>
+            <p>{{.Email}}</p>
+        </div>
+        <div class=" ">
+            <h5>телефон: </h5>
+            <p>{{.Phone}}</p>
+        </div>
+        <div class=" ">
+            <h5>ORCID: </h5>
+            <p>{{.ORCID}}</p>
+        </div>
+        <div class=" ">
+            <h5>работа: </h5>
+            <p>{{.Work}}</p>
+        </div>
+        <div class="row justify-content-between pl-3 pr-3">
+            <form action="/editAuthor/{{.ID}}" method="GET"><button type="submit" class="btn btn-success " >изменить</button></form>
+            <form class="" action="/deleteAuthor/{{.ID}}" method="POST"><button type="submit" class="btn btn-danger" onclick="return confirm('вы уверены что хотите удалить?') ? true : false;">удалить</button></form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

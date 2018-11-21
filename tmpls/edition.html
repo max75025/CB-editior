@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+
+<div class="flexbox-wrapper">
+    <div class="p-3 card card-block  bg-faded form-width">
+    {{/*<h2 align="center" class="m-b-1 ">данные автора</h2>*/}}
+        <img src="/static/publication_ico.png" alt="author" class="m-auto" style="display: block">
+        <div class=" ">
+            <h5>том: </h5>
+            <p>{{.Tom}}</p>
+        </div>
+        <div class=" ">
+            <h5>номер: </h5>
+            <p>{{.Number}}</p>
+        </div>
+        <div class=" ">
+            <h5>год: </h5>
+            <p>{{.Year}}</p>
+        </div>
+        <div class=" ">
+            <h5>pdf: </h5>
+            <p><a href="{{.PDF}}" target="_blank">файл</a></p>
+        </div>
+
+        <div class="row justify-content-between pl-3 pr-3">
+            <form action="/editEdition/{{.ID}}" method="GET"><button type="submit" class="btn btn-success " >изменить</button></form>
+            <form class="" action="/deleteEdition/{{.ID}}" method="POST"><button type="submit" class="btn btn-danger" onclick="return confirm('вы уверены что хотите удалить?') ? true : false;">удалить</button></form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
