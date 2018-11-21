@@ -29,6 +29,23 @@ $(document).ready(function () {
                 "sSortAscending":  ": активировать для сортировки столбца по возрастанию",
                 "sSortDescending": ": активировать для сортировки столбцов по убыванию"
             }
-        }
+        },
+        dom: "<'row'<'col-sm-12 col-md-6' B><'col-sm-12 col-md-6'f>>" +
+        "<'row'<'col-sm-12'tr>>" +
+        "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
+        buttons: [
+
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+
     });
+
+    /* $('table').DataTable( {
+         dom: 'B<"clear">lfrtip',
+         buttons: [ 'copy', 'csv', 'excel' ]
+    } );*/
+
+
 });

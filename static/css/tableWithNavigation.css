@@ -4,11 +4,16 @@ td{
     white-space: nowrap;
 }
 
-.page-item.active .page-link {
+.page-item.active .page-link, .buttons-html5 {
     z-index: 1;
     color: #fff;
     background-color: #20af39;
     border-color: #1e9b33;
+}
+
+.buttons-html5:hover{
+    background-color: #1f7631;
+    border-color: #1f7631;
 }
 
 select:focus,select:active,input:focus, input:active {

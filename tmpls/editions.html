@@ -54,10 +54,10 @@
         {{range .}}
 
         <tr class="" >
-            <td title="{{.Number}}"><a href="/edition/{{.ID}}">{{.Number}}</a></td>
+            <td title="{{.Number}}"><a class="text-dark" href="/edition/{{.ID}}">{{.Number}}</a></td>
             <td title="{{.Tom}}">{{.Tom}}</td>
             <td title="{{.Year}}">{{.Year}}</td>
-            <td><a href="{{.PDF}}" target="_blank">файл</a></td>
+            <td><a class="text-dark" href="{{.PDF}}" target="_blank">файл</a></td>
 
         </tr>
         {{end}}
@@ -67,6 +67,9 @@
 <script src="/static/js/jquery-3.3.1.min.js"></script>
 <script src="/static/js/bootstrap.js"></script>
 <script src="/static/js/datatables.min.js"></script>
+
+<script src="/static/js/pdfmake.min.js"></script>
+<script src="/static/js/vfs_fonts.js"></script>
 
 <script src="/static/js/datatable-settings.js"></script>
 
