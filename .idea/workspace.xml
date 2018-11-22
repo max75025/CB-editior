@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3246170-3bd9-46b7-b797-e24b12c92b5c" name="Default" comment="v 1.3.2">
+    <list default="true" id="f3246170-3bd9-46b7-b797-e24b12c92b5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CB-editior.exe" afterPath="$PROJECT_DIR$/CB-editior.exe" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/shartist.min.css" afterPath="$PROJECT_DIR$/static/css/shartist.min.css" />
       <change beforePath="$PROJECT_DIR$/tmpls/diagram.html" afterPath="$PROJECT_DIR$/tmpls/diagram.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7655269">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-148">
-                  <caret line="750" column="10" lean-forward="false" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
+                <state relative-caret-position="644">
+                  <caret line="767" column="26" lean-forward="true" selection-start-line="767" selection-start-column="26" selection-end-line="767" selection-end-column="26" />
                   <folding>
                     <element signature="e#1158#1793#0" expanded="false" />
                     <element signature="e#1887#1912#0" expanded="false" />
@@ -48,46 +45,6 @@
                     <element signature="e#16929#17425#0" expanded="false" />
                     <element signature="e#17528#18887#0" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="shartist.min.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/css/shartist.min.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="0" column="4132" lean-forward="false" selection-start-line="0" selection-start-column="4132" selection-end-line="0" selection-end-column="4132" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="diagram.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tmpls/diagram.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="4264" column="143" lean-forward="false" selection-start-line="4264" selection-start-column="143" selection-end-line="4264" selection-end-column="143" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tmpls/publications.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="47" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -127,6 +84,16 @@
                     <marker date="1542813659251" expanded="true" signature="11399:11474" ph="UPDATE edition " />
                     <marker date="1542813659251" expanded="true" signature="11761:11874" ph="UPDATE author " />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="diagram.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tmpls/diagram.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2347">
+                  <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -269,8 +236,8 @@
         <option value="$PROJECT_DIR$/tmpls/authors.html" />
         <option value="$PROJECT_DIR$/tmpls/editions.html" />
         <option value="$PROJECT_DIR$/static/css/shartist.min.css" />
-        <option value="$PROJECT_DIR$/tmpls/diagram.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/tmpls/diagram.html" />
       </list>
     </option>
   </component>
@@ -687,37 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="750" column="10" lean-forward="false" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
-          <folding>
-            <element signature="e#1158#1793#0" expanded="false" />
-            <element signature="e#1887#1912#0" expanded="false" />
-            <element signature="e#2012#3099#0" expanded="false" />
-            <element signature="e#3201#4523#0" expanded="false" />
-            <element signature="e#4624#4980#0" expanded="false" />
-            <element signature="e#5082#6522#0" expanded="false" />
-            <element signature="e#6628#7970#0" expanded="false" />
-            <element signature="e#8077#9990#0" expanded="false" />
-            <element signature="e#10099#10507#0" expanded="false" />
-            <element signature="e#10601#10996#0" expanded="false" />
-            <element signature="e#11093#11646#0" expanded="false" />
-            <element signature="e#11747#12304#0" expanded="false" />
-            <element signature="e#12406#12987#0" expanded="false" />
-            <element signature="e#13091#13394#0" expanded="false" />
-            <element signature="e#13490#13587#0" expanded="false" />
-            <element signature="e#13684#14119#0" expanded="false" />
-            <element signature="e#14215#14590#0" expanded="false" />
-            <element signature="e#14688#15135#0" expanded="false" />
-            <element signature="e#15429#16418#0" expanded="false" />
-            <element signature="e#16523#16827#0" expanded="false" />
-            <element signature="e#16929#17425#0" expanded="false" />
-            <element signature="e#17528#18887#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmpls/authors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -742,6 +678,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="4264" column="143" lean-forward="false" selection-start-line="4264" selection-start-column="143" selection-end-line="4264" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/shartist.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -752,17 +696,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpls/diagram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="2347">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="4264" column="143" lean-forward="false" selection-start-line="4264" selection-start-column="143" selection-end-line="4264" selection-end-column="143" />
-          <folding />
+        <state relative-caret-position="644">
+          <caret line="767" column="26" lean-forward="true" selection-start-line="767" selection-start-column="26" selection-end-line="767" selection-end-column="26" />
+          <folding>
+            <element signature="e#1158#1793#0" expanded="false" />
+            <element signature="e#1887#1912#0" expanded="false" />
+            <element signature="e#2012#3099#0" expanded="false" />
+            <element signature="e#3201#4523#0" expanded="false" />
+            <element signature="e#4624#4980#0" expanded="false" />
+            <element signature="e#5082#6522#0" expanded="false" />
+            <element signature="e#6628#7970#0" expanded="false" />
+            <element signature="e#8077#9990#0" expanded="false" />
+            <element signature="e#10099#10507#0" expanded="false" />
+            <element signature="e#10601#10996#0" expanded="false" />
+            <element signature="e#11093#11646#0" expanded="false" />
+            <element signature="e#11747#12304#0" expanded="false" />
+            <element signature="e#12406#12987#0" expanded="false" />
+            <element signature="e#13091#13394#0" expanded="false" />
+            <element signature="e#13490#13587#0" expanded="false" />
+            <element signature="e#13684#14119#0" expanded="false" />
+            <element signature="e#14215#14590#0" expanded="false" />
+            <element signature="e#14688#15135#0" expanded="false" />
+            <element signature="e#15429#16418#0" expanded="false" />
+            <element signature="e#16523#16827#0" expanded="false" />
+            <element signature="e#16929#17425#0" expanded="false" />
+            <element signature="e#17528#18887#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
