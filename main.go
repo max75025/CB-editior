@@ -747,6 +747,12 @@ func main(){
 	})
 
 
+	router.GET("/diagram", func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
+		checkLogin(w, r)
+		t, _ := template.ParseFiles("tmpls/diagram.html")
+		t.Execute(w, nil)
+	})
+
 	router.GET("/errorLogin",func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 		fmt.Fprintf(w,"не верные данные авторизации")
 	})

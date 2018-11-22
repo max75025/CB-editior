@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3246170-3bd9-46b7-b797-e24b12c92b5c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/shartist.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmpls/diagram.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cursachBodul.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +22,10 @@
           <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state relative-caret-position="-696">
+                  <caret line="54" column="6" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="6" />
                   <folding>
                     <element signature="e#14#167#0" expanded="true" />
-                    <element signature="e#991#1066#0" expanded="false" />
                     <element signature="e#1158#1793#0" expanded="false" />
                     <element signature="e#1887#1912#0" expanded="false" />
                     <element signature="e#2012#3099#0" expanded="false" />
@@ -42,14 +44,31 @@
                     <element signature="e#13684#14119#0" expanded="false" />
                     <element signature="e#14215#14590#0" expanded="false" />
                     <element signature="e#14688#15135#0" expanded="false" />
-                    <element signature="e#15233#15331#0" expanded="false" />
                     <element signature="e#15429#16418#0" expanded="false" />
                     <element signature="e#16523#16827#0" expanded="false" />
                     <element signature="e#16929#17425#0" expanded="false" />
                     <element signature="e#17528#18887#0" expanded="false" />
-                    <element signature="e#18984#19036#0" expanded="false" />
-                    <element signature="e#19120#19147#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shartist.min.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/css/shartist.min.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="diagram.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tmpls/diagram.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="867">
+                  <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -57,8 +76,8 @@
           <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tmpls/publications.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="409">
-                  <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="76" />
                   <folding />
                 </state>
               </provider>
@@ -67,7 +86,7 @@
           <file leaf-file-name="DBfunc.go" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DBfunc.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
+                <state relative-caret-position="629">
                   <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
                   <folding>
                     <element signature="e#14#142#0" expanded="true" />
@@ -103,10 +122,20 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="authors.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tmpls/authors.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="35" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="session.go" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/session.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="833">
+                <state relative-caret-position="748">
                   <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
                   <folding>
                     <element signature="e#14#102#0" expanded="true" />
@@ -201,7 +230,6 @@
         <option value="$PROJECT_DIR$/tmpls/publication.html" />
         <option value="$PROJECT_DIR$/structures.go" />
         <option value="$PROJECT_DIR$/tmpls/editAuthor.html" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/tmpls/editPublication.html" />
         <option value="$PROJECT_DIR$/tmpls/addPublication.html" />
         <option value="$PROJECT_DIR$/static/js/Russian.json" />
@@ -215,6 +243,10 @@
         <option value="$PROJECT_DIR$/tmpls/edition.html" />
         <option value="$PROJECT_DIR$/tmpls/publications.html" />
         <option value="$PROJECT_DIR$/tmpls/author.html" />
+        <option value="$PROJECT_DIR$/static/js/chartist.min.js" />
+        <option value="$PROJECT_DIR$/static/css/shartist.min.css" />
+        <option value="$PROJECT_DIR$/tmpls/diagram.html" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -248,6 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,14 +303,18 @@
             <path>
               <item name="CB-editior" type="b2602c69:ProjectViewProjectNode" />
               <item name="CB-editior" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CB-editior" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CB-editior" type="462c0819:PsiDirectoryNode" />
               <item name="tmpls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,16 +374,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16011904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25301206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25301206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -386,66 +424,16 @@
     <MESSAGE value="v 1.1" />
     <MESSAGE value="v 1.2" />
     <MESSAGE value="v 1.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.2.1" />
+    <MESSAGE value="v 1.2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 1.2.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmpls/addEdition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBfunc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="83" column="236" lean-forward="false" selection-start-line="83" selection-start-column="236" selection-end-line="83" selection-end-column="236" />
-          <folding>
-            <element signature="e#14#142#0" expanded="true" />
-            <marker date="1542813659251" expanded="true" signature="2138:2385" ph="CREATE TABLE... IF" />
-            <marker date="1542813659251" expanded="true" signature="2441:2710" ph="CREATE TABLE... IF" />
-            <marker date="1542813659251" expanded="true" signature="2766:2955" ph="CREATE TABLE... IF" />
-            <marker date="1542813659251" expanded="true" signature="3010:3172" ph="CREATE TABLE... IF" />
-            <marker date="1542813659251" expanded="true" signature="3439:3464" ph="SELECT * FRO... publication" />
-            <marker date="1542813659251" expanded="true" signature="3703:3768" ph="SELECT id_au... author_publication" />
-            <marker date="1542813659251" expanded="true" signature="4161:4182" ph="SELECT * FRO... edition" />
-            <marker date="1542813659251" expanded="true" signature="4520:4540" ph="SELECT * FRO... author" />
-            <marker date="1542813659251" expanded="true" signature="4882:4918" ph="SELECT * FRO... author" />
-            <marker date="1542813659251" expanded="true" signature="5279:5321" ph="SELECT * FRO... edition" />
-            <marker date="1542813659251" expanded="true" signature="5720:5765" ph="SELECT * FRO... publication" />
-            <marker date="1542813659251" expanded="true" signature="5950:6015" ph="SELECT id_au... author_publication" />
-            <marker date="1542813659251" expanded="true" signature="6775:6839" ph="SELECT id_pu... author_publication" />
-            <marker date="1542813659251" expanded="true" signature="8032:8061" ph="DELETE FROM author... " />
-            <marker date="1542813659251" expanded="true" signature="8183:8217" ph="DELETE FROM publication... " />
-            <marker date="1542813659251" expanded="true" signature="8334:8364" ph="DELETE FROM edition... " />
-            <marker date="1542813659251" expanded="true" signature="8610:8658" ph="DELETE FROM author_publication... " />
-            <marker date="1542813659251" expanded="true" signature="8699:8752" ph="DELETE FROM author_publication... " />
-            <marker date="1542813659251" expanded="true" signature="8974:9069" ph="INSERT INTO author... " />
-            <marker date="1542813659251" expanded="true" signature="9388:9506" ph="INSERT INTO publication... " />
-            <marker date="1542813659251" expanded="true" signature="9875:9944" ph="INSERT INTO author_publication... " />
-            <marker date="1542813659251" expanded="true" signature="10192:10255" ph="INSERT INTO edition... " />
-            <marker date="1542813659251" expanded="true" signature="10555:10675" ph="UPDATE publication " />
-            <marker date="1542813659251" expanded="true" signature="10817:10946" ph="UPDATE publication " />
-            <marker date="1542813659251" expanded="true" signature="11231:11293" ph="UPDATE edition " />
-            <marker date="1542813659251" expanded="true" signature="11399:11474" ph="UPDATE edition " />
-            <marker date="1542813659251" expanded="true" signature="11761:11874" ph="UPDATE author " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmpls/addAuthor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmpls/news.html" />
     <entry file="file://$PROJECT_DIR$/static/js/app.js" />
     <entry file="file://$PROJECT_DIR$/static/js/script.js" />
@@ -547,86 +535,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/dataTables.buttons.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jszip.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.test" />
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/static/js/dataTables.buttons.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/jszip.min.js" />
     <entry file="file://$PROJECT_DIR$/static/js/pdfmake.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.dataTables.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.dataTables.min.js" />
     <entry file="file://$PROJECT_DIR$/static/js/vfs_fonts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/buttons.html5.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/buttons.html5.min.js" />
     <entry file="file://$PROJECT_DIR$/static/js/datatables.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="31" column="503" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="31" selection-end-column="503" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/buttons.dataTables.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1120" lean-forward="false" selection-start-line="0" selection-start-column="1113" selection-end-line="0" selection-end-column="1120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/buttons.dataTables.min.css" />
     <entry file="file://$PROJECT_DIR$/structures.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -639,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="420" column="20" lean-forward="false" selection-start-line="420" selection-start-column="19" selection-end-line="420" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="750" lean-forward="false" selection-start-line="15" selection-start-column="734" selection-end-line="15" selection-end-column="750" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,13 +589,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBfunc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="629">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
           <folding>
             <element signature="e#14#142#0" expanded="true" />
@@ -700,21 +633,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmpls/authors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="64" column="77" lean-forward="false" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/session.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="748">
           <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
             <element signature="e#14#102#0" expanded="true" />
@@ -726,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
           <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,25 +664,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/chartist.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmpls/authors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/shartist.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpls/publications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmpls/diagram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="-696">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="6" />
           <folding>
             <element signature="e#14#167#0" expanded="true" />
-            <element signature="e#991#1066#0" expanded="false" />
             <element signature="e#1158#1793#0" expanded="false" />
             <element signature="e#1887#1912#0" expanded="false" />
             <element signature="e#2012#3099#0" expanded="false" />
@@ -779,13 +730,10 @@
             <element signature="e#13684#14119#0" expanded="false" />
             <element signature="e#14215#14590#0" expanded="false" />
             <element signature="e#14688#15135#0" expanded="false" />
-            <element signature="e#15233#15331#0" expanded="false" />
             <element signature="e#15429#16418#0" expanded="false" />
             <element signature="e#16523#16827#0" expanded="false" />
             <element signature="e#16929#17425#0" expanded="false" />
             <element signature="e#17528#18887#0" expanded="false" />
-            <element signature="e#18984#19036#0" expanded="false" />
-            <element signature="e#19120#19147#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/shartist.min.css" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link text-center" href="/publications">СТАТЬИ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="/editions">ВЫПУСКИ</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-center " href="#">АВТОРЫ</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-none d-sm-none d-md-block d-lg-block" action="/logout" method="GET">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">выход</button>
+        </form>
+    </div>
+</nav>
+
+<div class="ct-chart ct-perfect-fourth"></div>
+
+<script src="/static/js/chartist.min.js"></script>
+<script>
+    var data = {
+        // A labels array that can contain any sort of values
+        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+        // Our series array that contains series objects or in this case series data arrays
+        series: [
+            [5, 2, 4, 2, 0]
+        ]
+    };
+
+    // Create a new line chart object where as first parameter we pass in a selector
+    // that is resolving to our chart container element. The Second parameter
+    // is the actual data object.
+    new Chartist.Line('.ct-chart', data);
+</script>
+
+</body>
+</html>
