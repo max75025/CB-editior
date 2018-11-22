@@ -748,7 +748,7 @@ func main(){
 
 
 	router.GET("/diagram", func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
-		checkLogin(w, r)
+		//checkLogin(w, r)
 		t, _ := template.ParseFiles("tmpls/diagram.html")
 		t.Execute(w, nil)
 	})
