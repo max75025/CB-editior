@@ -37,19 +37,21 @@
 </nav>
 
 <div class="ct-chart "></div>
-
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
 <script src="/static/js/chartist.min.js"></script>
 <script>
     var data = {
         // A labels array that can contain any sort of values
-        labels: ['1965', '1970', '1980', '1990', '2000','2010'],
+        labels: ['1965', '1970', '1980', '1990', '2000','2010',2018],
         // Our series array that contains series objects or in this case series data arrays
         series: [
-            [1.5, 3,  6.7, 4,5.1,3  ]
+            [1.5, 3,  6.7, 4,5.1,3 ,2.3 ]
         ]
     };
     var options = {
-        height: 700
+        height: 700,
+        showArea:true
     };
     // Create a new line chart object where as first parameter we pass in a selector
     // that is resolving to our chart container element. The Second parameter
